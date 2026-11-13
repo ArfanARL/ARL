@@ -16,7 +16,7 @@ export default async function ResearchPage() {
   const pocs = projects.filter((p) => p.status === "poc" || p.slug === "intelligent-file-management");
   return (
     <>
-      <PageHero eyebrow="RESEARCH" title={<>Applied research, <em>transparently labelled.</em></>} lead="We present work in progress and completed research openly. Each item is labelled as a manuscript, proof of concept, pilot or production system — and claims of validation are made only where evidence is cited." />
+      <PageHero variant="research" eyebrow="RESEARCH" title={<>Applied research, <em>transparently labelled.</em></>} lead="We present work in progress and completed research openly. Each item is labelled as a manuscript, proof of concept, pilot or production system — and claims of validation are made only where evidence is cited." />
 
       <section className="section-wrap research-section" aria-labelledby="pubs-title">
         <div className="section-heading" data-reveal>

@@ -13,7 +13,7 @@ export default async function LeadershipPage() {
   const leaders = await getLeaders();
   return (
     <>
-      <PageHero eyebrow="LEADERSHIP" title={<>Experience shaped by <em>complex technology environments.</em></>} lead="The company is led by professionals bringing together technology leadership, operational delivery and applied research.">
+      <PageHero variant="network" eyebrow="LEADERSHIP" title={<>Experience shaped by <em>complex technology environments.</em></>} lead="The company is led by professionals bringing together technology leadership, operational delivery and applied research.">
         <nav className="hero-meta" aria-label="Jump to profile">
           {leaders.map((l) => <a key={l.slug} href={`#${l.slug}`}>{l.name} ↓</a>)}
         </nav>

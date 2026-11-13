@@ -525,6 +525,14 @@ h2, .intro h2 { font-family: var(--font-head); }
   .stats-grid > div { padding: 4px 14px; }
 }
 
+/* ---------- Sub-page hero backgrounds ---------- */
+.page-hero { min-height: 380px; display: flex; align-items: center; }
+.page-hero .hero-grid { z-index: 0; }
+.page-canvas { position: absolute; inset: 0; width: 100%; height: 100%; z-index: 1; pointer-events: none; -webkit-mask-image: linear-gradient(90deg, rgba(0,0,0,.18), #000 42%, #000); mask-image: linear-gradient(90deg, rgba(0,0,0,.18), #000 42%, #000); }
+.page-hero-inner { width: 100%; }
+@media (max-width: 960px) { .page-hero { min-height: 340px; } .page-canvas { opacity: .65; -webkit-mask-image: none; mask-image: none; } }
+@media (max-width: 600px) { .page-hero { min-height: 0; } .page-canvas { opacity: .3; } }
+
 /* ---------- Status pages (404 / error) ---------- */
 .status-page { min-height: 100vh; display: flex; flex-direction: column; align-items: flex-start; justify-content: center; gap: 18px; padding: 80px var(--gutter); }
 .status-page h1 { font: 600 clamp(32px, 5vw, 56px)/1.1 var(--font-head); letter-spacing: -.04em; margin: 0; }

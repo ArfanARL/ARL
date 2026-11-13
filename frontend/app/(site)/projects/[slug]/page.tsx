@@ -29,7 +29,7 @@ export default async function ProjectPage({ params }: Props) {
 
   return (
     <>
-      <PageHero eyebrow={pillarName[project.pillar].toUpperCase()} title={project.title} lead={project.summary}>
+      <PageHero variant="projects" eyebrow={pillarName[project.pillar].toUpperCase()} title={project.title} lead={project.summary}>
         <div className="hero-meta"><StatusBadge status={project.status} />{project.period && <span>{project.period}</span>}</div>
       </PageHero>
 

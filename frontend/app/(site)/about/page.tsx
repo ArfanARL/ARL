@@ -27,7 +27,7 @@ const principles = [
 export default function AboutPage() {
   return (
     <>
-      <PageHero eyebrow="ABOUT" title={<>Advanced technology, grounded in <em>operational reality.</em></>} lead="A Pakistan-based technology and applied-research company focused on intelligent digital systems for enterprise, public-sector and essential-service environments." />
+      <PageHero variant="network" eyebrow="ABOUT" title={<>Advanced technology, grounded in <em>operational reality.</em></>} lead="A Pakistan-based technology and applied-research company focused on intelligent digital systems for enterprise, public-sector and essential-service environments." />
 
       <section className="glance" aria-label="Company at a glance">
         <dl className="section-wrap glance-grid">

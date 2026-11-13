@@ -25,7 +25,7 @@ export default async function ResearchPage({ params }: Props) {
 
   return (
     <>
-      <PageHero eyebrow={item.kind.toUpperCase()} title={item.title} lead={item.summary}>
+      <PageHero variant="research" eyebrow={item.kind.toUpperCase()} title={item.title} lead={item.summary}>
         <div className="hero-meta"><span className="badge badge-research">Research</span><span>{item.authors}</span></div>
       </PageHero>
 

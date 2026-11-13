@@ -14,7 +14,7 @@ export default async function SolutionsPage() {
   const projects = await getProjects();
   return (
     <>
-      <PageHero eyebrow="SOLUTIONS" title={<>Three pillars. <em>One connected capability.</em></>} lead="We shape solutions around the mission, users, information and operating environment — not around technology for its own sake." />
+      <PageHero variant="solutions" eyebrow="SOLUTIONS" title={<>Three pillars. <em>One connected capability.</em></>} lead="We shape solutions around the mission, users, information and operating environment — not around technology for its own sake." />
       {pillars.map((p, i) => {
         const related = projects.filter((x) => x.pillar === p.id);
         return (

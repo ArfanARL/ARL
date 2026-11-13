@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <>
-      <PageHero eyebrow="CONTACT" title={<>Let’s discuss your <em>project.</em></>} lead="Tell us about your organisation, research collaboration or digital transformation requirement. We read every enquiry and reply by email." />
+      <PageHero variant="contact" eyebrow="CONTACT" title={<>Let’s discuss your <em>project.</em></>} lead="Tell us about your organisation, research collaboration or digital transformation requirement. We read every enquiry and reply by email." />
       <section className="contact-band contact-page">
         <div className="section-wrap contact-inner">
           <div className="contact-copy" data-reveal>
