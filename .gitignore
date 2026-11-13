@@ -1,0 +1,23 @@
+.env
+.env.*.local
+.venv/
+__pycache__/
+*.py[cod]
+node_modules/
+.next/
+out/
+bin/
+obj/
+.vscode/
+.idea/
+.DS_Store
+
+# build output / local artefacts
+.next-export/
+out/
+*.log
+frontend-server.log
+*.tsbuildinfo
+.env.local
+.env.*.local
+Thumbs.db

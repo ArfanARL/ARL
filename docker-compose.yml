@@ -1,0 +1,60 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: arl-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-agentic_research_labs}
+      POSTGRES_USER: ${POSTGRES_USER:-arl_app}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+    ports: ["${POSTGRES_PORT:-5432}:5432"]
+    volumes: ["arl_postgres_data:/var/lib/postgresql/data"]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-arl_app} -d ${POSTGRES_DB:-agentic_research_labs}"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: arl-redis
+    restart: unless-stopped
+    command: ["redis-server", "--appendonly", "yes"]
+    ports: ["${REDIS_PORT:-6379}:6379"]
+    volumes: ["arl_redis_data:/data"]
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 3s
+      retries: 5
+
+  core-api:
+    build: ./backend/core-api
+    container_name: arl-core-api
+    restart: unless-stopped
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ASPNETCORE_URLS: http://+:8080
+      DATABASE_URL: Host=postgres;Port=5432;Database=${POSTGRES_DB:-agentic_research_labs};Username=${POSTGRES_USER:-arl_app};Password=${POSTGRES_PASSWORD}
+      AIService__BaseUrl: http://ai-service:8001
+      AIService__Token: ${AI_SERVICE_TOKEN:?Set AI_SERVICE_TOKEN in .env}
+      JWT_SIGNING_KEY: ${JWT_SIGNING_KEY:?Set JWT_SIGNING_KEY in .env}
+      BOOTSTRAP_ADMIN_EMAIL: ${BOOTSTRAP_ADMIN_EMAIL:-}
+      BOOTSTRAP_ADMIN_PASSWORD: ${BOOTSTRAP_ADMIN_PASSWORD:-}
+      Cors__AllowedOrigins__0: ${WEBSITE_ORIGIN:-http://localhost:3000}
+    ports: ["${CORE_API_PORT:-8080}:8080"]
+    depends_on:
+      postgres: { condition: service_healthy }
+      ai-service: { condition: service_started }
+
+  ai-service:
+    build: ./backend/ai-service
+    container_name: arl-ai-service
+    restart: unless-stopped
+    environment:
+      AI_SERVICE_TOKEN: ${AI_SERVICE_TOKEN:?Set AI_SERVICE_TOKEN in .env}
+    expose: ["8001"]
+
+volumes:
+  arl_postgres_data:
+  arl_redis_data:
