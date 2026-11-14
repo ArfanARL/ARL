@@ -658,40 +658,6 @@ export const leaders: Leader[] = [
       { value: "25%", label: "reported hardware-cost reduction" },
     ],
     focus: ["Operations & delivery coordination", "AI engineering & research", "LLM, RAG & agent orchestration", "Secure infrastructure", "Systems integration", "Responsible AI governance"],
-    expertise: [
-      { group: "AI engineering", items: ["LLM integration", "RAG & hybrid retrieval", "Agent orchestration (LangChain, LangGraph, CrewAI)", "Local models (Ollama, Qwen)", "Vector stores (Qdrant, Chroma, pgvector)", "Automated evaluation"] },
-      { group: "Software & integration", items: ["Python", "C# / .NET", "SQL", "PowerShell", "REST & Web APIs", "Workflow automation"] },
-      { group: "Enterprise & Microsoft", items: ["Windows Server", "Active Directory & Group Policy", "Microsoft 365 / Azure fundamentals", "DNS / DHCP", "File & print services"] },
-      { group: "Security & operations", items: ["RBAC, MFA, SSO, OAuth", "TLS & endpoint security", "Backup & recovery", "Monitoring", "Technical documentation"] },
-    ],
-    career: [
-      {
-        period: "Present",
-        title: "Director, Operations & Research",
-        org: "Agentic Research Labs (Pvt) Ltd",
-        points: ["Leads operations and research coordination, from applied research and technical design to delivery planning.", "Author of research on responsible AI competence and AI-enabled health information systems."],
-      },
-      {
-        period: "2018 – present",
-        title: "Senior AI Architect, AI Engineering & R&D",
-        org: "Institutional AI engineering and R&D programme",
-        points: [
-          "Designs and develops AI-enabled applications and enterprise integrations focused on maintainable architecture, secure data access and API connectivity.",
-          "Builds reusable API and tool interfaces, structured workflows and integrations across models, data sources and enterprise services.",
-          "Applies input and output validation, regression testing, error handling and access control.",
-        ],
-      },
-      {
-        period: "2010 – 2018",
-        title: "Senior IT Systems Administrator",
-        org: "Military IT data centres",
-        points: [
-          "Administered enterprise systems and application infrastructure for 3,000+ users.",
-          "Supported availability, access control, secure configuration, backup and recovery, and monitoring.",
-          "Contributed to consolidating 20+ physical servers into a virtualised environment, with a reported 25% reduction in hardware costs.",
-        ],
-      },
-    ],
     credentials: [
       "Bachelor of Software Engineering — GC University, Faisalabad (2005–2009)",
       "Google Project Management certificate",
