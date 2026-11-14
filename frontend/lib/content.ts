@@ -647,12 +647,12 @@ export const leaders: Leader[] = [
     role: "Director, Operations & Research",
     headline: "AI architect, enterprise-systems engineer and researcher",
     bio: [
-      "Mr. Muhammad Arfan leads operations and research at Agentic Research Labs. A software-engineering graduate with more than sixteen years of experience, he combines enterprise-scale IT operations — application infrastructure, cybersecurity and service continuity for thousands of users — with hands-on AI engineering.",
+      "Mr. Muhammad Arfan leads operations and research at Agentic Research Labs. A software-engineering graduate with 17 years of experience, he combines enterprise-scale IT operations — application infrastructure, cybersecurity and service continuity for thousands of users — with hands-on AI engineering.",
       "He designs AI-enabled applications and enterprise integrations: LLM integration, retrieval-augmented generation, agent orchestration with human-in-the-loop controls, and automated evaluation and verification. He applies software-engineering discipline — input and output validation, regression testing, access control and documentation — so that AI systems are maintainable, secure and trustworthy in production.",
       "As Director, Operations & Research he connects applied research and technical design with operational planning, delivery coordination and institutional requirements. His research at Agentic Research Labs addresses responsible AI governance and measurable ethical competence, and the evaluation of AI-enabled health information systems.",
     ],
     highlights: [
-      { value: "16+", label: "years across enterprise IT and AI" },
+      { value: "17", label: "years across enterprise IT and AI" },
       { value: "3,000+", label: "users supported by services he administered" },
       { value: "20+", label: "physical servers consolidated through virtualisation" },
       { value: "25%", label: "reported hardware-cost reduction" },

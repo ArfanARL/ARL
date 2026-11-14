@@ -2,7 +2,7 @@
 -- PostgreSQL database dump
 --
 
-\restrict 09GW7HiyZlMJbjcntQyDArkA2SauTN2escsJoSZrgUrjVdgkgjro4SIN9cV6CqZ
+\restrict 4sLxSmiaJOkRaxGFYJv64IbHxH9FOQYZRnuAc4PO4ciAB1mccsgnz0KSUZQvgbH
 
 -- Dumped from database version 17.11 (Debian 17.11-1.pgdg13+2)
 -- Dumped by pg_dump version 17.11 (Debian 17.11-1.pgdg13+2)
@@ -41,7 +41,80 @@ INSERT INTO public.content_entries ("Id", "Type", "Slug", "Title", "Data", "IsPu
 INSERT INTO public.content_entries ("Id", "Type", "Slug", "Title", "Data", "IsPublished", "SortOrder", "UpdatedAtUtc", "UpdatedBy") VALUES ('da907e4d-5b7d-4350-b057-795f2e0e5152', 'project', 'medical-iot-pathology-integration', 'Medical IoT and Pathology-instrument Integration', '{"slug":"medical-iot-pathology-integration","title":"Medical IoT and Pathology-instrument Integration","pillar":"research","status":"poc","period":"2020 – 2021","context":"Proof-of-concept work within a government software development division.","summary":"Proof of concept for IoT-based continuous health monitoring of patients, and design of a hardware device to automate pathology-machine integration.","challenge":"Capture patient vital signs and laboratory-instrument results automatically instead of by manual transcription.","solution":["Conducted a proof of concept for continuous, IoT-based patient health monitoring.","Designed a hardware device to automate integration of pathology machines with information systems."],"capabilities":["Medical IoT","Device integration","Laboratory automation","Connected health"],"related":[{"label":"Research themes: connected diagnostic systems","href":"/research#themes"}]}', true, 160, '2026-11-13 15:26:07.020851+00', 'admin@arl.local');
 INSERT INTO public.content_entries ("Id", "Type", "Slug", "Title", "Data", "IsPublished", "SortOrder", "UpdatedAtUtc", "UpdatedBy") VALUES ('83e95c74-2575-4bed-ab6f-999133331c2f', 'project', 'government-enterprise-systems', 'Government Enterprise and Management Systems', '{"slug":"government-enterprise-systems","title":"Government Enterprise and Management Systems","pillar":"platforms","status":"historical","period":"2004 – 2014","context":"Consulting and government assignments, including World Bank and provincial-government programmes.","summary":"Financial, human-resource, logistics and monitoring-and-evaluation systems for public-sector and development programmes.","challenge":"Provide dependable management systems for public bodies and development projects at scale.","solution":["Financial Management System for a World Bank project, now used by 100+ cities in Pakistan.","Human Resource Management System later adopted across government, oil, agri-tech and retail sectors, locally and internationally.","Monitoring and Evaluation systems for a provincial-government project.","Feasibility studies for government HR, financial and logistics management systems."],"capabilities":["Financial management","HRMS","Logistics management","Monitoring & evaluation"],"reported":[{"label":"Cities using the FMS","value":"100+"}]}', true, 170, '2026-11-13 15:26:07.023915+00', 'admin@arl.local');
 INSERT INTO public.content_entries ("Id", "Type", "Slug", "Title", "Data", "IsPublished", "SortOrder", "UpdatedAtUtc", "UpdatedBy") VALUES ('a1653d14-2273-4cb0-be26-8974b1f5ecec', 'leader', 'abid-ghaffar', 'Mr. Abid Ghaffar', '{"slug":"abid-ghaffar","initials":"AG","name":"Mr. Abid Ghaffar","role":"Chief Executive Officer","headline":"Technology leader and principal software architect","bio":["Mr. Abid Ghaffar is a technology leader and principal software architect with more than two decades of experience across public health, government, defence-related environments, enterprise systems and international development assignments.","His work spans healthcare information systems, enterprise architecture, high-concurrency software, data engineering, geospatial technologies and AI/LLM-based workflows — including local language models, retrieval-augmented generation and agentic workflows for privacy-conscious, on-premises environments."],"highlights":[{"value":"20+","label":"years of technical leadership"},{"value":"2,000+","label":"sites — provincial HMIS (reported)"},{"value":"25,000+","label":"users — provincial HMIS (reported)"}],"focus":["Healthcare information systems","Enterprise architecture","Local AI & agentic workflows","High-concurrency engineering","GIS & data engineering"],"credentials":["MicroMasters in Data, Economics and Development Policy — Massachusetts Institute of Technology","MS (Computer Science), Data Mining / Business Intelligence — University of Engineering and Technology, Lahore","Certified Professional in Healthcare Information and Management Systems (CPHIMS) — HIMSS","ITIL certified; machine-learning, big-data and cloud certifications"],"work":[{"label":"Provincial HMIS","href":"/projects/provincial-hmis"},{"label":"EMR and CCT Integration","href":"/projects/emr-cct-integration"},{"label":"Intelligent File Management","href":"/projects/intelligent-file-management"}]}', true, 10, '2026-11-13 15:39:43.997034+00', 'admin@arl.local');
-INSERT INTO public.content_entries ("Id", "Type", "Slug", "Title", "Data", "IsPublished", "SortOrder", "UpdatedAtUtc", "UpdatedBy") VALUES ('e2ab8421-7b03-4100-ad2e-747f341cd126', 'leader', 'muhammad-arfan', 'Mr. Muhammad Arfan', '{"slug":"muhammad-arfan","initials":"MA","name":"Mr. Muhammad Arfan","role":"Director, Operations & Research","headline":"AI architect, enterprise-systems engineer and researcher","bio":["Mr. Muhammad Arfan leads operations and research at Agentic Research Labs. A software-engineering graduate with more than sixteen years of experience, he combines enterprise-scale IT operations — application infrastructure, cybersecurity and service continuity for thousands of users — with hands-on AI engineering.","He designs AI-enabled applications and enterprise integrations: LLM integration, retrieval-augmented generation, agent orchestration with human-in-the-loop controls, and automated evaluation and verification. He applies software-engineering discipline — input and output validation, regression testing, access control and documentation — so that AI systems are maintainable, secure and trustworthy in production.","As Director, Operations & Research he connects applied research and technical design with operational planning, delivery coordination and institutional requirements. His research at Agentic Research Labs addresses responsible AI governance and measurable ethical competence, and the evaluation of AI-enabled health information systems."],"highlights":[{"value":"16+","label":"years across enterprise IT and AI"},{"value":"3,000+","label":"users supported by services he administered"},{"value":"20+","label":"physical servers consolidated through virtualisation"},{"value":"25%","label":"reported hardware-cost reduction"}],"focus":["Operations & delivery coordination","AI engineering & research","LLM, RAG & agent orchestration","Secure infrastructure","Systems integration","Responsible AI governance"],"expertise":[{"group":"AI engineering","items":["LLM integration","RAG & hybrid retrieval","Agent orchestration (LangChain, LangGraph, CrewAI)","Local models (Ollama, Qwen)","Vector stores (Qdrant, Chroma, pgvector)","Automated evaluation"]},{"group":"Software & integration","items":["Python","C# / .NET","SQL","PowerShell","REST & Web APIs","Workflow automation"]},{"group":"Enterprise & Microsoft","items":["Windows Server","Active Directory & Group Policy","Microsoft 365 / Azure fundamentals","DNS / DHCP","File & print services"]},{"group":"Security & operations","items":["RBAC, MFA, SSO, OAuth","TLS & endpoint security","Backup & recovery","Monitoring","Technical documentation"]}],"career":[],"credentials":["Bachelor of Software Engineering — GC University, Faisalabad (2005–2009)","Google Project Management certificate","Microsoft Azure Fundamentals (AZ-900); 38 Microsoft Learn certified badges","Anthropic AI Fluency: Framework Foundations; Claude Code 101; Claude Code in Action"],"work":[{"label":"OneVerse AIOS","href":"/projects/oneverse-aios"},{"label":"AI Document Intelligence","href":"/projects/ai-document-intelligence"},{"label":"AI eMail, HR & Quotation applications","href":"/projects/ai-email-hr-quotation-applications"},{"label":"AI Evaluation & Verification Platform","href":"/projects/ai-evaluation-verification-platform"},{"label":"Data-centre Virtualisation","href":"/projects/data-centre-virtualisation"},{"label":"Research: RAI-ECTF — measurable ethical competence","href":"/research/rai-ectf"},{"label":"Research: AI-enabled HMIS","href":"/research/ai-enabled-hmis"}]}', true, 20, '2026-11-13 15:40:36.543612+00', 'admin@arl.local');
+INSERT INTO public.content_entries ("Id", "Type", "Slug", "Title", "Data", "IsPublished", "SortOrder", "UpdatedAtUtc", "UpdatedBy") VALUES ('e2ab8421-7b03-4100-ad2e-747f341cd126', 'leader', 'muhammad-arfan', 'Mr. Muhammad Arfan', '{
+                 "slug":  "muhammad-arfan",
+                 "initials":  "MA",
+                 "name":  "Mr. Muhammad Arfan",
+                 "role":  "Director, Operations \u0026 Research",
+                 "headline":  "AI architect, enterprise-systems engineer and researcher",
+                 "bio":  [
+                             "Mr. Muhammad Arfan leads operations and research at Agentic Research Labs. A software-engineering graduate with 17 years of experience, he combines enterprise-scale IT operations - application infrastructure, cybersecurity and service continuity for thousands of users - with hands-on AI engineering.",
+                             "He designs AI-enabled applications and enterprise integrations: LLM integration, retrieval-augmented generation, agent orchestration with human-in-the-loop controls, and automated evaluation and verification. He applies software-engineering discipline - input and output validation, regression testing, access control and documentation - so that AI systems are maintainable, secure and trustworthy in production.",
+                             "As Director, Operations \u0026 Research he connects applied research and technical design with operational planning, delivery coordination and institutional requirements. His research at Agentic Research Labs addresses responsible AI governance and measurable ethical competence, and the evaluation of AI-enabled health information systems."
+                         ],
+                 "highlights":  [
+                                    {
+                                        "value":  "17",
+                                        "label":  "years across enterprise IT and AI"
+                                    },
+                                    {
+                                        "value":  "3,000+",
+                                        "label":  "users supported by services he administered"
+                                    },
+                                    {
+                                        "value":  "20+",
+                                        "label":  "physical servers consolidated through virtualisation"
+                                    },
+                                    {
+                                        "value":  "25%",
+                                        "label":  "reported hardware-cost reduction"
+                                    }
+                                ],
+                 "focus":  [
+                               "Operations \u0026 delivery coordination",
+                               "AI engineering \u0026 research",
+                               "LLM, RAG \u0026 agent orchestration",
+                               "Secure infrastructure",
+                               "Systems integration",
+                               "Responsible AI governance"
+                           ],
+                 "credentials":  [
+                                     "Bachelor of Software Engineering - GC University, Faisalabad (2005-2009)",
+                                     "Google Project Management certificate",
+                                     "Microsoft Azure Fundamentals (AZ-900); 38 Microsoft Learn certified badges",
+                                     "Anthropic AI Fluency: Framework Foundations; Claude Code 101; Claude Code in Action"
+                                 ],
+                 "work":  [
+                              {
+                                  "label":  "OneVerse AIOS",
+                                  "href":  "/projects/oneverse-aios"
+                              },
+                              {
+                                  "label":  "AI Document Intelligence",
+                                  "href":  "/projects/ai-document-intelligence"
+                              },
+                              {
+                                  "label":  "AI eMail, HR \u0026 Quotation applications",
+                                  "href":  "/projects/ai-email-hr-quotation-applications"
+                              },
+                              {
+                                  "label":  "AI Evaluation \u0026 Verification Platform",
+                                  "href":  "/projects/ai-evaluation-verification-platform"
+                              },
+                              {
+                                  "label":  "Data-centre Virtualisation",
+                                  "href":  "/projects/data-centre-virtualisation"
+                              },
+                              {
+                                  "label":  "Research: RAI-ECTF - measurable ethical competence",
+                                  "href":  "/research/rai-ectf"
+                              },
+                              {
+                                  "label":  "Research: AI-enabled HMIS",
+                                  "href":  "/research/ai-enabled-hmis"
+                              }
+                          ]
+             }', true, 20, '2026-11-14 10:15:46.119925+00', 'admin@arl.local');
 
 
 --
@@ -54,5 +127,5 @@ INSERT INTO public.content_entries ("Id", "Type", "Slug", "Title", "Data", "IsPu
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 09GW7HiyZlMJbjcntQyDArkA2SauTN2escsJoSZrgUrjVdgkgjro4SIN9cV6CqZ
+\unrestrict 4sLxSmiaJOkRaxGFYJv64IbHxH9FOQYZRnuAc4PO4ciAB1mccsgnz0KSUZQvgbH
 
