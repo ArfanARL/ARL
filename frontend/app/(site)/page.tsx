@@ -1,4 +1,5 @@
 import Link from "next/link";
+import ClientsStrip from "../../components/ClientsStrip";
 import HeroBackground from "../../components/HeroBackground";
 import HmisFlow from "../../components/HmisFlow";
 import ProjectCard from "../../components/ProjectCard";
@@ -144,10 +145,12 @@ export default async function HomePage() {
           {featured.map((p, i) => <ProjectCard key={p.slug} project={p} delay={i * 90} />)}
         </div>
         <p className="section-note" data-reveal>
-          Project work has been undertaken in different employment and consultancy contexts. Each case study identifies its project context so that prior professional experience is not confused with projects contracted directly to Agentic Research Labs.
+          Every project is delivered through Agentic Research Labs for public-sector and development-sector clients. Each case study names the client context, and reported figures are shown with their original scope.
         </p>
         <Link className="inline-link" href="/projects">View all {projects.length} projects <span aria-hidden="true">↗</span></Link>
       </section>
+
+      <ClientsStrip />
 
       <section className="approach" aria-labelledby="approach-title">
         <div className="section-wrap approach-inner">

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import ClientsStrip from "../../../components/ClientsStrip";
 import PageHero from "../../../components/PageHero";
 import { company } from "../../../lib/content";
 
@@ -129,6 +130,8 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      <ClientsStrip />
 
       <section className="cta-band">
         <div className="section-wrap cta-inner">

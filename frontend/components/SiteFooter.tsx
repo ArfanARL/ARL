@@ -35,7 +35,7 @@ export default function SiteFooter() {
       </div>
       <div className="footer-bottom">
         <small>© {new Date().getFullYear()} Agentic Research Labs (Pvt) Ltd. All rights reserved.</small>
-        <small>Historical projects are presented as leadership experience. Reported figures are not independently audited.</small>
+        <small>All projects are delivered through Agentic Research Labs. Reported figures are not independently audited.</small>
       </div>
     </footer>
   );

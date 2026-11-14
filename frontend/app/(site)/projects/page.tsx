@@ -14,7 +14,7 @@ export default async function ProjectsPage() {
   const projects = await getProjects();
   return (
     <>
-      <PageHero variant="projects" eyebrow="PROJECTS" title={<>Selected work across <em>{projects.length} initiatives.</em></>} lead="Healthcare, AI, enterprise, GIS and infrastructure work — labelled so you can tell operational systems from proofs of concept and leadership experience." />
+      <PageHero variant="projects" eyebrow="PROJECTS" title={<>Selected work across <em>{projects.length} initiatives.</em></>} lead="Healthcare, AI, enterprise, GIS and infrastructure work — labelled so you can tell operational systems from completed projects and proofs of concept." />
       <section className="section-wrap projects-section">
         <ProjectsExplorer projects={projects} />
         <aside className="legend" aria-label="How projects are labelled">

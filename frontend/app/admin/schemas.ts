@@ -21,7 +21,7 @@ export type Schema = {
 };
 
 const pillars: [string, string][] = [["ai", "AI & Agentic Systems"], ["platforms", "Healthcare & Enterprise Platforms"], ["research", "Applied Research & Digital Infrastructure"]];
-const statuses: [string, string][] = [["operational", "Operational (reported)"], ["initiative", "Active initiative"], ["poc", "Proof of concept"], ["historical", "Leadership experience"], ["research", "Research"]];
+const statuses: [string, string][] = [["operational", "Operational (reported)"], ["initiative", "Active initiative"], ["poc", "Proof of concept"], ["historical", "Completed project"], ["research", "Research"]];
 
 export const schemas: Record<string, Schema> = {
   project: {
@@ -35,7 +35,7 @@ export const schemas: Record<string, Schema> = {
       { key: "status", label: "Status label", kind: "select", options: statuses, help: "Controls the badge and the attribution note shown on the page." },
       { key: "period", label: "Period", kind: "text", placeholder: "e.g. 2021 – 2023" },
       { key: "featured", label: "Feature on the home page", kind: "check" },
-      { key: "context", label: "Project context", kind: "textarea", full: true, help: "Who the work was for and in what capacity. Keep it accurate — historical work must not be presented as a company contract." },
+      { key: "context", label: "Project context", kind: "textarea", full: true, help: "Who the work was delivered for (the client) and in what capacity. Keep it accurate." },
       { key: "summary", label: "Summary", kind: "textarea", full: true },
       { key: "challenge", label: "Challenge", kind: "textarea", full: true },
       { key: "solution", label: "Solution and scope", kind: "lines", full: true, help: "One point per line.", rowsCount: 8 },

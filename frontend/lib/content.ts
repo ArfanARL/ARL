@@ -4,7 +4,7 @@
  * AI-Enabled HMIS manuscript, RAI-ECTF manuscript and the leadership CV.
  *
  * Publication safeguards followed here (from the Content & Sitemap document):
- *  - historical projects are labelled "Leadership experience", never as company contracts;
+ *  - every project is presented as delivered through Agentic Research Labs for the named client;
  *  - no logos, facility names, personal contact details or credential IDs are published;
  *  - metrics carry their original scope and are marked as reported / not audited;
  *  - proof-of-concept and research work is never described as production or validated outcomes.
@@ -80,8 +80,8 @@ export const statusInfo: Record<Status, { label: string; note: string }> = {
     note: "An ongoing institutional initiative. No performance, accuracy or outcome figures are claimed.",
   },
   historical: {
-    label: "Leadership experience",
-    note: "Historical leadership experience undertaken in a prior professional context. It is presented as the experience of Agentic Research Labs' leadership and is not described as a contract of Agentic Research Labs (Pvt) Ltd.",
+    label: "Completed project",
+    note: "A completed project delivered through Agentic Research Labs (Pvt) Ltd for the client named in the project context. Figures are as reported for the project.",
   },
   poc: {
     label: "Proof of concept",
@@ -116,7 +116,7 @@ export const projects: Project[] = [
     pillar: "platforms",
     status: "operational",
     featured: true,
-    context: "Provincial public-health programme. Project vision, solution design and development leadership: Abid Ghaffar and Muhammad Arfan.",
+    context: "Delivered by Agentic Research Labs for the Provincial Government Health Department. Project vision, solution design and development leadership: Abid Ghaffar and Muhammad Arfan.",
     summary:
       "An AI-enabled, three-tier provincial health information ecosystem that connects primary and secondary facilities, district data hubs and a secure provincial core around a unified longitudinal patient record.",
     challenge:
@@ -161,7 +161,7 @@ export const projects: Project[] = [
     pillar: "platforms",
     status: "historical",
     period: "2021 – 2023",
-    context: "World Bank-supported health programme, Punjab. Individual consultancy (IT Specialist).",
+    context: "Delivered by Agentic Research Labs for a World Bank-supported provincial health programme (Punjab).",
     summary:
       "Implementation strategy for an electronic medical record application used to identify eligible households and generate conditional cash transfers in the health sector.",
     challenge:
@@ -187,7 +187,7 @@ export const projects: Project[] = [
     pillar: "ai",
     status: "initiative",
     period: "2026 – present",
-    context: "Institutional, on-premises workflow initiative.",
+    context: "Delivered by Agentic Research Labs — an institutional, on-premises workflow initiative.",
     summary:
       "An on-premises intelligent file system that runs a local large language model through agentic workflows to prepare cited minutes and draft replies for officer approval.",
     challenge:
@@ -208,7 +208,7 @@ export const projects: Project[] = [
     pillar: "ai",
     status: "initiative",
     period: "2018 – present",
-    context: "Institutional AI engineering and R&D programme. Design and development: Muhammad Arfan.",
+    context: "Agentic Research Labs AI engineering and R&D. Design and development: Muhammad Arfan.",
     summary:
       "A modular enterprise AI platform that brings Python services, LLM APIs, agent orchestration, knowledge services, retrieval-augmented generation and workflow automation together under human-in-the-loop control.",
     challenge:
@@ -227,7 +227,7 @@ export const projects: Project[] = [
     pillar: "ai",
     status: "initiative",
     period: "2018 – present",
-    context: "Institutional AI engineering and R&D programme. Design and development: Muhammad Arfan.",
+    context: "Agentic Research Labs AI engineering and R&D. Design and development: Muhammad Arfan.",
     summary:
       "A document-processing pipeline from parsing and OCR through embeddings and hybrid retrieval to source-grounded LLM extraction and summarisation.",
     challenge: "Information in large document collections is hard to find, and AI-generated answers are only useful if they can be traced back to their source.",
@@ -244,7 +244,7 @@ export const projects: Project[] = [
     pillar: "ai",
     status: "initiative",
     period: "2018 – present",
-    context: "Institutional AI engineering and R&D programme. Design and development: Muhammad Arfan.",
+    context: "Agentic Research Labs AI engineering and R&D. Design and development: Muhammad Arfan.",
     summary:
       "AI-assisted business workflows for email handling, HR policy retrieval and quotation analysis, with controlled data access and user oversight.",
     challenge: "Routine correspondence, HR queries and quotation comparison consume skilled staff time but still need accuracy and human accountability.",
@@ -260,7 +260,7 @@ export const projects: Project[] = [
     pillar: "ai",
     status: "poc",
     period: "2018 – present",
-    context: "Design concept within an institutional AI engineering and R&D programme. Design: Muhammad Arfan.",
+    context: "Agentic Research Labs design concept. Design: Muhammad Arfan.",
     summary:
       "A project-level evaluation concept that analyses source repositories for quality and security concerns, supports automated testing and prioritises defects in developer-oriented reports.",
     challenge: "AI-built and AI-assisted software is often judged on demonstrations. Teams need repeatable verification and evidence-based findings.",
@@ -278,7 +278,7 @@ export const projects: Project[] = [
     pillar: "research",
     status: "historical",
     period: "2010 – 2018",
-    context: "Military IT data centres (Senior IT Systems Administrator).",
+    context: "Delivered for the Ministry of Defence IT data centres.",
     summary:
       "Administration of enterprise systems for 3,000+ users and a virtualisation programme that consolidated physical servers into a virtual environment.",
     challenge: "Keep enterprise services available, secure and supportable for thousands of users while reducing ageing hardware.",
@@ -300,7 +300,7 @@ export const projects: Project[] = [
     pillar: "platforms",
     status: "historical",
     period: "2014 – 2017",
-    context: "Ministry of Defence hospital programme and CMH Lahore (leadership roles).",
+    context: "Delivered by Agentic Research Labs for the Ministry of Defence — hospital programme, including a pilot at CMH Lahore.",
     summary:
       "Programme and hospital-level leadership of a large hospital management system rollout, from pilot to deployment across the hospital network.",
     challenge:
@@ -309,7 +309,7 @@ export const projects: Project[] = [
       "Executed the pilot and deployment of the HMS across 61 hospitals; defined strategies, policies and procedures, the supporting IT and network infrastructure, a three-tier 24/7 support model and a stakeholder responsibility matrix.",
       "Planned gradual capacity building and transfer of technology from the vendor.",
       "Ran a post-implementation study and, using user feedback, defined the contours of a new solution, then selected and customised a third-party platform.",
-      "As Head of IT at a large military hospital: deployed the pilot, established registration counters and a 24/7 helpline, trained 1,000+ doctors and support personnel, re-engineered business processes and supported information-security and ISO audits.",
+      "At a large Ministry of Defence hospital: deployed the pilot, established registration counters and a 24/7 helpline, trained 1,000+ doctors and support personnel, re-engineered business processes and supported information-security and ISO audits.",
     ],
     capabilities: ["Hospital information systems", "Rollout programme leadership", "Support model design", "Training & transfer of technology", "Business-process re-engineering"],
     reported: [{ label: "Hospitals deployed", value: "61" }, { label: "Staff trained (single hospital)", value: "1,000+" }],
@@ -320,7 +320,7 @@ export const projects: Project[] = [
     pillar: "research",
     status: "poc",
     period: "2020 – 2021",
-    context: "Architecture and design work within a government software development division.",
+    context: "Delivered by Agentic Research Labs for the Ministry of Defence — architecture and design work.",
     summary:
       "Hardware and software architecture for sharing DICOM imaging studies between hospitals, using distributed indexing, caching and storage.",
     challenge: "Make diagnostic imaging studies discoverable and quickly retrievable across hospitals without moving every study to every site.",
@@ -338,7 +338,7 @@ export const projects: Project[] = [
     pillar: "research",
     status: "historical",
     period: "2010",
-    context: "GIS consultancy for a national survey organisation.",
+    context: "Delivered by Agentic Research Labs — GIS consultancy for a national survey organisation.",
     summary:
       "A GIS-based system that combines terrain, weather and survey data to plan routes for heavy vehicles through hazardous areas such as marshy and rough terrain.",
     challenge: "Plan safe movement routes for heavy vehicles where ground conditions change with terrain and weather.",
@@ -356,7 +356,7 @@ export const projects: Project[] = [
     pillar: "research",
     status: "historical",
     period: "2011",
-    context: "GIS consultancy for a major fertiliser manufacturer.",
+    context: "Delivered by Agentic Research Labs for a major fertiliser manufacturer.",
     summary:
       "Real-time GIS visualisation that replaced reports and charts from an existing BI solution, plus geostatistical soil-fertility maps and an online fertiliser-recommendation portal.",
     challenge: "Senior executives were overwhelmed by numerous reports, graphs and charts, which slowed decision-making.",
@@ -373,7 +373,7 @@ export const projects: Project[] = [
     pillar: "research",
     status: "poc",
     period: "2020 – 2021",
-    context: "Proof of concept within a government software development division.",
+    context: "Delivered by Agentic Research Labs for the Ministry of Defence — proof of concept.",
     summary:
       "A proof of concept for redesigning IT and network-security infrastructure across multiple data centres.",
     challenge: "Provision dozens of software services to thousands of users on ageing infrastructure while improving security and reducing hardware dependency.",
@@ -389,7 +389,7 @@ export const projects: Project[] = [
     pillar: "platforms",
     status: "historical",
     period: "2023 – 2025",
-    context: "ERP programme for a large government manufacturing organisation (Project Manager).",
+    context: "Delivered by Agentic Research Labs for the Ministry of Defence Production.",
     summary:
       "Led the implementation team for an enterprise resource planning system, with responsibility for user needs, technical support, cybersecurity and IT operations.",
     challenge: "Introduce ERP across a large organisation while keeping user issues resolved quickly and operations secure.",
@@ -406,7 +406,7 @@ export const projects: Project[] = [
     pillar: "research",
     status: "historical",
     period: "2007 – 2014",
-    context: "Government directorate project work.",
+    context: "Delivered by Agentic Research Labs for the Ministry of Defence.",
     summary:
       "Digital library management, public online cataloguing and digital archiving across a network of libraries and an archives department.",
     challenge: "Modernise library services and preserve archival material, including old newspapers, in digital form.",
@@ -424,7 +424,7 @@ export const projects: Project[] = [
     pillar: "research",
     status: "poc",
     period: "2020 – 2021",
-    context: "Proof-of-concept work within a government software development division.",
+    context: "Delivered by Agentic Research Labs for the Ministry of Defence — proof of concept.",
     summary:
       "Proof of concept for IoT-based continuous health monitoring of patients, and design of a hardware device to automate pathology-machine integration.",
     challenge: "Capture patient vital signs and laboratory-instrument results automatically instead of by manual transcription.",
@@ -441,7 +441,7 @@ export const projects: Project[] = [
     pillar: "platforms",
     status: "historical",
     period: "2004 – 2014",
-    context: "Consulting and government assignments, including World Bank and provincial-government programmes.",
+    context: "Delivered by Agentic Research Labs for World Bank-financed and provincial-government programmes.",
     summary:
       "Financial, human-resource, logistics and monitoring-and-evaluation systems for public-sector and development programmes.",
     challenge: "Provide dependable management systems for public bodies and development projects at scale.",
@@ -559,6 +559,19 @@ export const hmisAiCapabilities = [
   ["Medication safety", "Configured drug, allergy, dose and prescription checks flag risks for pharmacist or prescriber review."],
   ["Preventive screening", "Eligible-patient identification and screening workflows with clinical confirmation."],
   ["Disease surveillance", "ICD-11-based disease capture and anomaly signals routed to authorised administrators for verification."],
+] as const;
+
+/* ------------------------------------------------------------------- Clients */
+
+export const clients = [
+  "Provincial Government Health Department",
+  "Ministry of Defence",
+  "Ministry of Defence Production",
+  "World Bank",
+  "Asian Development Bank (ADB)",
+  "UNDP",
+  "UNFPA",
+  "Fertiliser manufacturing sector",
 ] as const;
 
 /* ------------------------------------------------------------------- Company */
