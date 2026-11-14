@@ -187,7 +187,7 @@ export const projects: Project[] = [
     pillar: "ai",
     status: "initiative",
     period: "2026 – present",
-    context: "Delivered by Agentic Research Labs — an institutional, on-premises workflow initiative.",
+    context: "Delivered by Agentic Research Labs for the Ministry of Defence — an institutional, on-premises workflow initiative.",
     summary:
       "An on-premises intelligent file system that runs a local large language model through agentic workflows to prepare cited minutes and draft replies for officer approval.",
     challenge:
@@ -206,9 +206,9 @@ export const projects: Project[] = [
     slug: "oneverse-aios",
     title: "OneVerse AIOS — Enterprise AI Operating Platform",
     pillar: "ai",
-    status: "initiative",
-    period: "2018 – present",
-    context: "Agentic Research Labs AI engineering and R&D. Design and development: Muhammad Arfan.",
+    status: "historical",
+    period: "2012 – 2015",
+    context: "Delivered by Agentic Research Labs for the IT Department, Ministry of Defence. Design and development: Muhammad Arfan.",
     summary:
       "A modular enterprise AI platform that brings Python services, LLM APIs, agent orchestration, knowledge services, retrieval-augmented generation and workflow automation together under human-in-the-loop control.",
     challenge:
@@ -225,9 +225,9 @@ export const projects: Project[] = [
     slug: "ai-document-intelligence",
     title: "AI Document Intelligence",
     pillar: "ai",
-    status: "initiative",
-    period: "2018 – present",
-    context: "Agentic Research Labs AI engineering and R&D. Design and development: Muhammad Arfan.",
+    status: "historical",
+    period: "2012 – 2015",
+    context: "Delivered by Agentic Research Labs for the IT Department, Ministry of Defence. Design and development: Muhammad Arfan.",
     summary:
       "A document-processing pipeline from parsing and OCR through embeddings and hybrid retrieval to source-grounded LLM extraction and summarisation.",
     challenge: "Information in large document collections is hard to find, and AI-generated answers are only useful if they can be traced back to their source.",
@@ -242,9 +242,9 @@ export const projects: Project[] = [
     slug: "ai-email-hr-quotation-applications",
     title: "AI eMail, HR Management & Quotation Management Applications",
     pillar: "ai",
-    status: "initiative",
-    period: "2018 – present",
-    context: "Agentic Research Labs AI engineering and R&D. Design and development: Muhammad Arfan.",
+    status: "historical",
+    period: "2012 – 2015",
+    context: "Delivered by Agentic Research Labs for the IT Department, Ministry of Defence. Design and development: Muhammad Arfan.",
     summary:
       "AI-assisted business workflows for email handling, HR policy retrieval and quotation analysis, with controlled data access and user oversight.",
     challenge: "Routine correspondence, HR queries and quotation comparison consume skilled staff time but still need accuracy and human accountability.",
@@ -259,8 +259,8 @@ export const projects: Project[] = [
     title: "Enterprise AI Evaluation & Verification Platform",
     pillar: "ai",
     status: "poc",
-    period: "2018 – present",
-    context: "Agentic Research Labs design concept. Design: Muhammad Arfan.",
+    period: "2012 – 2015",
+    context: "Delivered by Agentic Research Labs for the IT Department, Ministry of Defence — design concept. Design: Muhammad Arfan.",
     summary:
       "A project-level evaluation concept that analyses source repositories for quality and security concerns, supports automated testing and prioritises defects in developer-oriented reports.",
     challenge: "AI-built and AI-assisted software is often judged on demonstrations. Teams need repeatable verification and evidence-based findings.",
@@ -277,7 +277,7 @@ export const projects: Project[] = [
     title: "Data-centre Virtualisation and Enterprise IT Services",
     pillar: "research",
     status: "historical",
-    period: "2010 – 2018",
+    period: "2009 – 2012",
     context: "Delivered for the Ministry of Defence IT data centres.",
     summary:
       "Administration of enterprise systems for 3,000+ users and a virtualisation programme that consolidated physical servers into a virtual environment.",
@@ -285,18 +285,18 @@ export const projects: Project[] = [
     solution: [
       "Administered Windows Server, Active Directory, Group Policy, DNS/DHCP and file and print services for 3,000+ users.",
       "Supported access control, secure configuration, incident troubleshooting, backup and recovery, monitoring and operational continuity.",
-      "Took part in infrastructure modernisation, consolidating 20+ physical servers into a virtualised environment with a reported 25% reduction in hardware costs.",
+      "Took part in infrastructure modernisation, consolidating 250+ physical servers into a virtualised environment with a reported 25% reduction in hardware costs.",
     ],
     capabilities: ["Windows Server & Active Directory", "Virtualisation", "Backup & recovery", "Secure configuration", "Service continuity"],
     reported: [
       { label: "Users supported", value: "3,000+" },
-      { label: "Servers consolidated", value: "20+" },
+      { label: "Servers consolidated", value: "250+" },
       { label: "Hardware cost reduction", value: "25%", note: "As reported" },
     ],
   },
   {
     slug: "hospital-management-system",
-    title: "Hospital Management System Deployment",
+    title: "Hospital Management System Deployment (Customised)",
     pillar: "platforms",
     status: "historical",
     period: "2014 – 2017",
@@ -320,7 +320,7 @@ export const projects: Project[] = [
     pillar: "research",
     status: "poc",
     period: "2020 – 2021",
-    context: "Delivered by Agentic Research Labs for the Ministry of Defence — architecture and design work.",
+    context: "Delivered by Agentic Research Labs for the Health Department, Ministry of Defence — architecture and design work.",
     summary:
       "Hardware and software architecture for sharing DICOM imaging studies between hospitals, using distributed indexing, caching and storage.",
     challenge: "Make diagnostic imaging studies discoverable and quickly retrievable across hospitals without moving every study to every site.",
@@ -338,7 +338,7 @@ export const projects: Project[] = [
     pillar: "research",
     status: "historical",
     period: "2010",
-    context: "Delivered by Agentic Research Labs — GIS consultancy for a national survey organisation.",
+    context: "Delivered by Agentic Research Labs for the Land Survey Department, Ministry of Defence.",
     summary:
       "A GIS-based system that combines terrain, weather and survey data to plan routes for heavy vehicles through hazardous areas such as marshy and rough terrain.",
     challenge: "Plan safe movement routes for heavy vehicles where ground conditions change with terrain and weather.",
@@ -356,7 +356,7 @@ export const projects: Project[] = [
     pillar: "research",
     status: "historical",
     period: "2011",
-    context: "Delivered by Agentic Research Labs for a major fertiliser manufacturer.",
+    context: "Delivered by Agentic Research Labs for the Land Survey Department, Ministry of Defence.",
     summary:
       "Real-time GIS visualisation that replaced reports and charts from an existing BI solution, plus geostatistical soil-fertility maps and an online fertiliser-recommendation portal.",
     challenge: "Senior executives were overwhelmed by numerous reports, graphs and charts, which slowed decision-making.",
@@ -424,7 +424,7 @@ export const projects: Project[] = [
     pillar: "research",
     status: "poc",
     period: "2020 – 2021",
-    context: "Delivered by Agentic Research Labs for the Ministry of Defence — proof of concept.",
+    context: "Delivered by Agentic Research Labs for the Health Department, Ministry of Defence — proof of concept.",
     summary:
       "Proof of concept for IoT-based continuous health monitoring of patients, and design of a hardware device to automate pathology-machine integration.",
     challenge: "Capture patient vital signs and laboratory-instrument results automatically instead of by manual transcription.",
@@ -667,7 +667,7 @@ export const leaders: Leader[] = [
     highlights: [
       { value: "17", label: "years across enterprise IT and AI" },
       { value: "3,000+", label: "users supported by services he administered" },
-      { value: "20+", label: "physical servers consolidated through virtualisation" },
+      { value: "250+", label: "physical servers consolidated through virtualisation" },
       { value: "25%", label: "reported hardware-cost reduction" },
     ],
     focus: ["Operations & delivery coordination", "AI engineering & research", "LLM, RAG & agent orchestration", "Secure infrastructure", "Systems integration", "Responsible AI governance"],
