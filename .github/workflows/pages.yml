@@ -32,7 +32,7 @@ jobs:
         env:
           PAGES_EXPORT: "true"
           NEXT_PUBLIC_BASE_PATH: /ARL
-          NEXT_PUBLIC_SITE_URL: https://neuralgriddynamics.github.io/ARL
+          NEXT_PUBLIC_SITE_URL: https://arfanarl.github.io/ARL
         run: npm run build
       - name: Remove admin console from the static site (it needs the Core API)
         run: rm -rf .next-export/admin && touch .next-export/.nojekyll
