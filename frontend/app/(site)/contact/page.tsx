@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import ContactForm from "../../../components/ContactForm";
 import PageHero from "../../../components/PageHero";
+import { CONTACT_EMAIL } from "../../../lib/config";
 
 export const metadata: Metadata = {
   title: "Contact",
@@ -20,7 +21,7 @@ export default function ContactPage() {
             <dl className="contact-details">
               <div><dt>Company</dt><dd>Agentic Research Labs (Pvt) Ltd</dd></div>
               <div><dt>Location</dt><dd>Lahore, Pakistan</dd></div>
-              <div><dt>Email</dt><dd><a href="mailto:info@agenticresearchlabs.com">info@agenticresearchlabs.com</a></dd></div>
+              <div><dt>Email</dt><dd><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a></dd></div>
             </dl>
           </div>
           <div className="contact-panel" data-reveal>

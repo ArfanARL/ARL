@@ -1,7 +1,7 @@
 import type { Metadata, Viewport } from "next";
 import { DM_Mono, DM_Sans, Manrope } from "next/font/google";
 import "./globals.css";
-import { SITE_URL } from "../lib/config";
+import { CONTACT_EMAIL, SITE_URL } from "../lib/config";
 
 const sans = DM_Sans({ subsets: ["latin"], variable: "--font-sans", display: "swap" });
 const display = Manrope({ subsets: ["latin"], variable: "--font-display", display: "swap" });
@@ -46,7 +46,7 @@ const jsonLd = {
   url: SITE_URL,
   description,
   address: { "@type": "PostalAddress", addressLocality: "Lahore", addressCountry: "PK" },
-  email: "info@agenticresearchlabs.com",
+  email: CONTACT_EMAIL,
   employee: [
     { "@type": "Person", name: "Abid Ghaffar", jobTitle: "Chief Executive Officer" },
     { "@type": "Person", name: "Muhammad Arfan", jobTitle: "Director, Operations & Research" },

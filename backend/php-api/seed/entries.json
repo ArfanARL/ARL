@@ -1,0 +1,810 @@
+[
+ {
+  "type": "project",
+  "slug": "provincial-hmis",
+  "title": "Provincial Healthcare Management Information System (HMIS)",
+  "data": {
+   "slug": "provincial-hmis",
+   "title": "Provincial Healthcare Management Information System (HMIS)",
+   "pillar": "platforms",
+   "status": "operational",
+   "featured": true,
+   "context": "Delivered by Agentic Research Labs for the Provincial Government Health Department. Project vision, solution design and development leadership: Abid Ghaffar and Muhammad Arfan.",
+   "summary": "An AI-enabled, three-tier provincial health information ecosystem that connects primary and secondary facilities, district data hubs and a secure provincial core around a unified longitudinal patient record.",
+   "challenge": "Healthcare is information-intensive, yet patient information is often fragmented across facilities and departments — leaving clinicians with incomplete histories and managers with limited visibility for planning, surveillance and resource allocation.",
+   "solution": [
+    "Tier 1 — health facilities (DHQ/THQ hospitals and primary-care units) capture registration, queue, triage, nursing, EMR, inpatient, referral and specialty workflows.",
+    "Tier 2 — district data hubs consolidate facility data for local administration and localised reporting.",
+    "Tier 3 — a secure provincial core hosts the central patient database, embedded AI services, logistics and supply chain, FlexiCare workforce management and the patient mobile-app server, with an interoperability hub for authorised exchange.",
+    "A connected diagnostic chain links laboratory, blood bank, radiology (RIS) and PACS, with blood-product traceability from donor to bedside.",
+    "Standards-based terminology and exchange: ICD-11, SNOMED CT, LOINC, RxNorm, ICHI, ICPC-2 and HL7/FHIR.",
+    "AI is a decision-support layer — identity and registration support, clinical dictation, imaging and ECG assistance, preventive screening, medication-safety alerts, document scanning and ICD-11 disease-surveillance analytics — with clinicians remaining accountable for clinical decisions.",
+    "Security design statements include AES-256 encryption at rest, TLS 1.2+ in transit, role-based least-privilege access and audit trails. A zero-new-hardware device strategy supports existing computers, smartphones and low-cost Android tablets.",
+    "Delivered in a record four months by a small development team using an AI-driven software-delivery approach."
+   ],
+   "capabilities": [
+    "Longitudinal patient record",
+    "CNIC-based registration",
+    "LIS · RIS · PACS · Blood bank",
+    "Maternal, child & preventive health",
+    "Workforce & payroll",
+    "Pharmacy & supply chain",
+    "Patient mobile app (Urdu/Punjabi voice booking)",
+    "ICD-11 disease surveillance",
+    "Executive dashboards",
+    "Governed AI services"
+   ],
+   "reported": [
+    {
+     "label": "Sites",
+     "value": "2,000+",
+     "note": "Reported operational footprint"
+    },
+    {
+     "label": "Hospitals",
+     "value": "167",
+     "note": "Hospital footprint in the technical description"
+    },
+    {
+     "label": "Web users",
+     "value": "25,000+",
+     "note": "Administrative / clinical users, as reported"
+    },
+    {
+     "label": "Mobile users",
+     "value": "10,000+",
+     "note": "Patient / provider users, as reported"
+    },
+    {
+     "label": "Clients processed daily",
+     "value": "400,000+",
+     "note": "Counting unit not defined"
+    }
+   ],
+   "related": [
+    {
+     "label": "Research: AI-enabled HMIS evaluation framework",
+     "href": "/research/ai-enabled-hmis"
+    },
+    {
+     "label": "Solutions: Healthcare & Enterprise Platforms",
+     "href": "/solutions#platforms"
+    }
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 0
+ },
+ {
+  "type": "project",
+  "slug": "emr-cct-integration",
+  "title": "EMR and Conditional Cash Transfer (CCT) Integration",
+  "data": {
+   "slug": "emr-cct-integration",
+   "title": "EMR and Conditional Cash Transfer (CCT) Integration",
+   "pillar": "platforms",
+   "status": "historical",
+   "period": "2021 – 2023",
+   "context": "Delivered by Agentic Research Labs for a World Bank-supported provincial health programme (Punjab).",
+   "summary": "Implementation strategy for an electronic medical record application used to identify eligible households and generate conditional cash transfers in the health sector.",
+   "challenge": "Deploy a facility-level EMR across hundreds of facilities, and connect it to government agencies and payment providers so that transfers could reach eligible households reliably.",
+   "solution": [
+    "Prepared the implementation strategy for EMR deployment across 800+ facilities and 5,000+ end users in 11 districts.",
+    "Supported integration with government agencies and payment service providers so the application could generate CCT payments to about 1.4 million eligible households.",
+    "Scripted ETL jobs, designed Tableau dashboards and prepared spatio-temporal maps to monitor project performance.",
+    "Designed the EMR training programme, a WhatsApp-group support mechanism and a social-mobilisation campaign to bring beneficiaries to nearby facilities.",
+    "Defined KPIs for patient load, disease prevalence and supply consumption, available automatically through the system interface, and coordinated tablets, routers and SIMs for 800+ sites."
+   ],
+   "capabilities": [
+    "EMR rollout strategy",
+    "Payment-provider integration",
+    "ETL & Tableau dashboards",
+    "Spatio-temporal monitoring",
+    "Training & support design"
+   ],
+   "reported": [
+    {
+     "label": "Facilities",
+     "value": "800+"
+    },
+    {
+     "label": "Districts",
+     "value": "11"
+    },
+    {
+     "label": "End users",
+     "value": "5,000+"
+    },
+    {
+     "label": "Eligible households",
+     "value": "~1.4 million"
+    }
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 10
+ },
+ {
+  "type": "project",
+  "slug": "intelligent-file-management",
+  "title": "Intelligent File Management and Agentic AI",
+  "data": {
+   "slug": "intelligent-file-management",
+   "title": "Intelligent File Management and Agentic AI",
+   "pillar": "ai",
+   "status": "initiative",
+   "period": "2026 – present",
+   "context": "Delivered by Agentic Research Labs for the Ministry of Defence — an institutional, on-premises workflow initiative.",
+   "summary": "An on-premises intelligent file system that runs a local large language model through agentic workflows to prepare cited minutes and draft replies for officer approval.",
+   "challenge": "Case files depend on statutes, standing orders and prior precedent. Staff need drafts grounded in the organisation's own record, with a human officer remaining in control of every decision and outgoing letter.",
+   "solution": [
+    "Specialist agents use retrieval-augmented generation over statutes, standing orders and closed precedents, then prepare a cited minute and draft the reply letter.",
+    "The officer reviews, approves and issues — the system assists, it does not decide.",
+    "Each closed file is written back into the RAG library, so later cases are answered from the organisation's own record.",
+    "The workflow is designed to be retargeted to another specialist desk, such as HR, by changing the corpus, officer roles and the rules the agents must follow.",
+    "Runs on-premises with a local model, suited to privacy-conscious, offline-first environments."
+   ],
+   "capabilities": [
+    "Local LLM",
+    "RAG with citations",
+    "Multi-agent workflow",
+    "Human approval stage",
+    "Institutional memory"
+   ],
+   "related": [
+    {
+     "label": "Solutions: AI & Agentic Systems",
+     "href": "/solutions#ai"
+    }
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 20
+ },
+ {
+  "type": "project",
+  "slug": "oneverse-aios",
+  "title": "OneVerse AIOS — Enterprise AI Operating Platform",
+  "data": {
+   "slug": "oneverse-aios",
+   "title": "OneVerse AIOS — Enterprise AI Operating Platform",
+   "pillar": "ai",
+   "status": "historical",
+   "period": "2012 – 2015",
+   "context": "Delivered by Agentic Research Labs for the IT Department, Ministry of Defence. Design and development: Muhammad Arfan.",
+   "summary": "A modular enterprise AI platform that brings Python services, LLM APIs, agent orchestration, knowledge services, retrieval-augmented generation and workflow automation together under human-in-the-loop control.",
+   "challenge": "Organisations want to use several models and many internal data sources, but need controlled tool execution, secure access to enterprise information and a human decision-maker in the loop.",
+   "solution": [
+    "Designed a modular platform integrating Python services, LLM and REST APIs, agent orchestration, knowledge services, RAG and workflow automation.",
+    "Developed reusable integration patterns for controlled tool execution, multi-model use and access to enterprise information.",
+    "Built in human-in-the-loop controls, input and output validation, access control and regression testing."
+   ],
+   "capabilities": [
+    "Agent orchestration",
+    "Multi-model integration",
+    "RAG & knowledge services",
+    "Controlled tool execution",
+    "Human-in-the-loop",
+    "LangChain · LangGraph · CrewAI"
+   ],
+   "related": [
+    {
+     "label": "Solutions: AI & Agentic Systems",
+     "href": "/solutions#ai"
+    }
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 30
+ },
+ {
+  "type": "project",
+  "slug": "ai-document-intelligence",
+  "title": "AI Document Intelligence",
+  "data": {
+   "slug": "ai-document-intelligence",
+   "title": "AI Document Intelligence",
+   "pillar": "ai",
+   "status": "historical",
+   "period": "2012 – 2015",
+   "context": "Delivered by Agentic Research Labs for the IT Department, Ministry of Defence. Design and development: Muhammad Arfan.",
+   "summary": "A document-processing pipeline from parsing and OCR through embeddings and hybrid retrieval to source-grounded LLM extraction and summarisation.",
+   "challenge": "Information in large document collections is hard to find, and AI-generated answers are only useful if they can be traced back to their source.",
+   "solution": [
+    "Built a pipeline covering parsing and OCR, chunking, metadata extraction, embeddings, semantic and hybrid retrieval, reranking, and LLM-based extraction and summarisation.",
+    "Designed source-grounded output patterns that support traceability and more reliable information discovery.",
+    "Uses vector stores such as Qdrant, Chroma and pgvector, with locally hosted models (Ollama, Qwen) where privacy requires."
+   ],
+   "capabilities": [
+    "OCR & parsing",
+    "Hybrid retrieval & reranking",
+    "Source-grounded answers",
+    "Vector databases",
+    "Local LLMs"
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 40
+ },
+ {
+  "type": "project",
+  "slug": "ai-email-hr-quotation-applications",
+  "title": "AI eMail, HR Management & Quotation Management Applications",
+  "data": {
+   "slug": "ai-email-hr-quotation-applications",
+   "title": "AI eMail, HR Management & Quotation Management Applications",
+   "pillar": "ai",
+   "status": "historical",
+   "period": "2012 – 2015",
+   "context": "Delivered by Agentic Research Labs for the IT Department, Ministry of Defence. Design and development: Muhammad Arfan.",
+   "summary": "AI-assisted business workflows for email handling, HR policy retrieval and quotation analysis, with controlled data access and user oversight.",
+   "challenge": "Routine correspondence, HR queries and quotation comparison consume skilled staff time but still need accuracy and human accountability.",
+   "solution": [
+    "Designed AI-assisted workflows for email generation and classification, HR policy retrieval, quotation analysis, document processing and structured information extraction.",
+    "Integrated application logic with APIs and databases, emphasising controlled data access, output validation and user oversight."
+   ],
+   "capabilities": [
+    "Email classification & drafting",
+    "HR policy retrieval",
+    "Quotation analysis",
+    "Structured extraction",
+    "Output validation"
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 50
+ },
+ {
+  "type": "project",
+  "slug": "ai-evaluation-verification-platform",
+  "title": "Enterprise AI Evaluation & Verification Platform",
+  "data": {
+   "slug": "ai-evaluation-verification-platform",
+   "title": "Enterprise AI Evaluation & Verification Platform",
+   "pillar": "ai",
+   "status": "poc",
+   "period": "2012 – 2015",
+   "context": "Delivered by Agentic Research Labs for the IT Department, Ministry of Defence — design concept. Design: Muhammad Arfan.",
+   "summary": "A project-level evaluation concept that analyses source repositories for quality and security concerns, supports automated testing and prioritises defects in developer-oriented reports.",
+   "challenge": "AI-built and AI-assisted software is often judged on demonstrations. Teams need repeatable verification and evidence-based findings.",
+   "solution": [
+    "Designed a project-level evaluation workflow for analysing source repositories and identifying quality and security concerns.",
+    "Structured the workflow around repeatable verification, evidence-based findings and retesting — not demonstrations alone.",
+    "Supports automated testing, defect prioritisation and developer-oriented reporting."
+   ],
+   "capabilities": [
+    "Automated evaluation",
+    "Code quality & security analysis",
+    "Regression testing",
+    "Defect prioritisation"
+   ],
+   "related": [
+    {
+     "label": "Research: responsible AI competence (RAI-ECTF)",
+     "href": "/research/rai-ectf"
+    }
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 60
+ },
+ {
+  "type": "project",
+  "slug": "data-centre-virtualisation",
+  "title": "Data-centre Virtualisation and Enterprise IT Services",
+  "data": {
+   "slug": "data-centre-virtualisation",
+   "title": "Data-centre Virtualisation and Enterprise IT Services",
+   "pillar": "research",
+   "status": "historical",
+   "period": "2009 – 2012",
+   "context": "Delivered for the Ministry of Defence IT data centres.",
+   "summary": "Administration of enterprise systems for 3,000+ users and a virtualisation programme that consolidated physical servers into a virtual environment.",
+   "challenge": "Keep enterprise services available, secure and supportable for thousands of users while reducing ageing hardware.",
+   "solution": [
+    "Administered Windows Server, Active Directory, Group Policy, DNS/DHCP and file and print services for 3,000+ users.",
+    "Supported access control, secure configuration, incident troubleshooting, backup and recovery, monitoring and operational continuity.",
+    "Took part in infrastructure modernisation, consolidating 250+ physical servers into a virtualised environment with a reported 25% reduction in hardware costs."
+   ],
+   "capabilities": [
+    "Windows Server & Active Directory",
+    "Virtualisation",
+    "Backup & recovery",
+    "Secure configuration",
+    "Service continuity"
+   ],
+   "reported": [
+    {
+     "label": "Users supported",
+     "value": "3,000+"
+    },
+    {
+     "label": "Servers consolidated",
+     "value": "250+"
+    },
+    {
+     "label": "Hardware cost reduction",
+     "value": "25%",
+     "note": "As reported"
+    }
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 70
+ },
+ {
+  "type": "project",
+  "slug": "hospital-management-system",
+  "title": "Hospital Management System Deployment (Customised)",
+  "data": {
+   "slug": "hospital-management-system",
+   "title": "Hospital Management System Deployment (Customised)",
+   "pillar": "platforms",
+   "status": "historical",
+   "period": "2014 – 2017",
+   "context": "Delivered by Agentic Research Labs for the Ministry of Defence — hospital programme, including a pilot at CMH Lahore.",
+   "summary": "Programme and hospital-level leadership of a large hospital management system rollout, from pilot to deployment across the hospital network.",
+   "challenge": "Introduce a hospital management system at scale while keeping hospitals running 24/7, building local capability and reducing dependence on the original vendor.",
+   "solution": [
+    "Executed the pilot and deployment of the HMS across 61 hospitals; defined strategies, policies and procedures, the supporting IT and network infrastructure, a three-tier 24/7 support model and a stakeholder responsibility matrix.",
+    "Planned gradual capacity building and transfer of technology from the vendor.",
+    "Ran a post-implementation study and, using user feedback, defined the contours of a new solution, then selected and customised a third-party platform.",
+    "At a large Ministry of Defence hospital: deployed the pilot, established registration counters and a 24/7 helpline, trained 1,000+ doctors and support personnel, re-engineered business processes and supported information-security and ISO audits."
+   ],
+   "capabilities": [
+    "Hospital information systems",
+    "Rollout programme leadership",
+    "Support model design",
+    "Training & transfer of technology",
+    "Business-process re-engineering"
+   ],
+   "reported": [
+    {
+     "label": "Hospitals deployed",
+     "value": "61"
+    },
+    {
+     "label": "Staff trained (single hospital)",
+     "value": "1,000+"
+    }
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 80
+ },
+ {
+  "type": "project",
+  "slug": "inter-hospital-dicom-sharing",
+  "title": "Inter-hospital DICOM Sharing",
+  "data": {
+   "slug": "inter-hospital-dicom-sharing",
+   "title": "Inter-hospital DICOM Sharing",
+   "pillar": "research",
+   "status": "poc",
+   "period": "2020 – 2021",
+   "context": "Delivered by Agentic Research Labs for the Health Department, Ministry of Defence — architecture and design work.",
+   "summary": "Hardware and software architecture for sharing DICOM imaging studies between hospitals, using distributed indexing, caching and storage.",
+   "challenge": "Make diagnostic imaging studies discoverable and quickly retrievable across hospitals without moving every study to every site.",
+   "solution": [
+    "Designed the distributed indexing mechanism that locates studies across participating hospitals.",
+    "Designed caching and storage tiers to keep frequently requested studies close to the clinicians who need them.",
+    "Defined the hardware/software architecture for secure inter-hospital exchange."
+   ],
+   "capabilities": [
+    "DICOM",
+    "PACS interoperability",
+    "Distributed indexing",
+    "Caching & storage architecture"
+   ],
+   "related": [
+    {
+     "label": "Research themes: medical data interoperability",
+     "href": "/research#themes"
+    }
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 90
+ },
+ {
+  "type": "project",
+  "slug": "gis-trafficability-management",
+  "title": "GIS Trafficability Management System",
+  "data": {
+   "slug": "gis-trafficability-management",
+   "title": "GIS Trafficability Management System",
+   "pillar": "research",
+   "status": "historical",
+   "period": "2010",
+   "context": "Delivered by Agentic Research Labs for the Land Survey Department, Ministry of Defence.",
+   "summary": "A GIS-based system that combines terrain, weather and survey data to plan routes for heavy vehicles through hazardous areas such as marshy and rough terrain.",
+   "challenge": "Plan safe movement routes for heavy vehicles where ground conditions change with terrain and weather.",
+   "solution": [
+    "Designed, developed and deployed the Trafficability Management System.",
+    "Built an add-in for QGIS and Geomedia add-ins to support map editing and printing operations.",
+    "Developed an interactive digital system mapper for overlay marking.",
+    "Carried out feasibility studies and reported progress to senior management."
+   ],
+   "capabilities": [
+    "GIS decision support",
+    "Terrain & weather analysis",
+    "QGIS / Geomedia extensions",
+    "Route planning"
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 100
+ },
+ {
+  "type": "project",
+  "slug": "gis-soil-intelligence-portal",
+  "title": "GIS Soil Intelligence Portal",
+  "data": {
+   "slug": "gis-soil-intelligence-portal",
+   "title": "GIS Soil Intelligence Portal",
+   "pillar": "research",
+   "status": "historical",
+   "period": "2011",
+   "context": "Delivered by Agentic Research Labs for the Land Survey Department, Ministry of Defence.",
+   "summary": "Real-time GIS visualisation that replaced reports and charts from an existing BI solution, plus geostatistical soil-fertility maps and an online fertiliser-recommendation portal.",
+   "challenge": "Senior executives were overwhelmed by numerous reports, graphs and charts, which slowed decision-making.",
+   "solution": [
+    "Designed real-time GIS-based visualisation to replace the existing BI dashboards and reports.",
+    "Produced geostatistical soil-fertility maps and developed an online portal for fertiliser suggestions.",
+    "Ran ETL over twelve years of soil-survey data from five units, and trained staff."
+   ],
+   "capabilities": [
+    "Geostatistics",
+    "Web GIS portal",
+    "ETL & data engineering",
+    "Executive decision support"
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 110
+ },
+ {
+  "type": "project",
+  "slug": "data-centre-modernisation",
+  "title": "Data-centre Modernisation",
+  "data": {
+   "slug": "data-centre-modernisation",
+   "title": "Data-centre Modernisation",
+   "pillar": "research",
+   "status": "poc",
+   "period": "2020 – 2021",
+   "context": "Delivered by Agentic Research Labs for the Ministry of Defence — proof of concept.",
+   "summary": "A proof of concept for redesigning IT and network-security infrastructure across multiple data centres.",
+   "challenge": "Provision dozens of software services to thousands of users on ageing infrastructure while improving security and reducing hardware dependency.",
+   "solution": [
+    "Design objectives: improve performance and delivery of existing software services; free up to 50% of servers and network equipment; strengthen overall security; extend the life of existing servers by 8–10 years.",
+    "Devised a hardware and software mechanism to connect a highly secure network with the internet safely."
+   ],
+   "capabilities": [
+    "Data-centre architecture",
+    "Network security design",
+    "Capacity optimisation",
+    "Secure connectivity"
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 120
+ },
+ {
+  "type": "project",
+  "slug": "erp-implementation",
+  "title": "ERP Implementation",
+  "data": {
+   "slug": "erp-implementation",
+   "title": "ERP Implementation",
+   "pillar": "platforms",
+   "status": "historical",
+   "period": "2023 – 2025",
+   "context": "Delivered by Agentic Research Labs for the Ministry of Defence Production.",
+   "summary": "Led the implementation team for an enterprise resource planning system, with responsibility for user needs, technical support, cybersecurity and IT operations.",
+   "challenge": "Introduce ERP across a large organisation while keeping user issues resolved quickly and operations secure.",
+   "solution": [
+    "Led the ERP implementation team, gathering user needs and technical-support issues.",
+    "Acted as liaison between users, developers and data-centre teams to resolve issues promptly.",
+    "Managed cybersecurity and IT operations for the organisation."
+   ],
+   "capabilities": [
+    "ERP programme management",
+    "Requirements & support",
+    "Cybersecurity management",
+    "IT operations"
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 130
+ },
+ {
+  "type": "project",
+  "slug": "digital-library-archival-systems",
+  "title": "Digital Library and Archival Systems",
+  "data": {
+   "slug": "digital-library-archival-systems",
+   "title": "Digital Library and Archival Systems",
+   "pillar": "research",
+   "status": "historical",
+   "period": "2007 – 2014",
+   "context": "Delivered by Agentic Research Labs for the Ministry of Defence.",
+   "summary": "Digital library management, public online cataloguing and digital archiving across a network of libraries and an archives department.",
+   "challenge": "Modernise library services and preserve archival material, including old newspapers, in digital form.",
+   "solution": [
+    "Established a digital library management system and supported a network of 60 libraries.",
+    "Designed a 3D, publicly accessible online catalogue and supported the redesign of the central library.",
+    "Started digital archiving for the archives department and for old newspapers.",
+    "Conducted feasibility studies, progress reporting and staff training."
+   ],
+   "capabilities": [
+    "Digital library systems",
+    "Online catalogue design",
+    "Digital archiving",
+    "Feasibility studies"
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 140
+ },
+ {
+  "type": "project",
+  "slug": "medical-iot-pathology-integration",
+  "title": "Medical IoT and Pathology-instrument Integration",
+  "data": {
+   "slug": "medical-iot-pathology-integration",
+   "title": "Medical IoT and Pathology-instrument Integration",
+   "pillar": "research",
+   "status": "poc",
+   "period": "2020 – 2021",
+   "context": "Delivered by Agentic Research Labs for the Health Department, Ministry of Defence — proof of concept.",
+   "summary": "Proof of concept for IoT-based continuous health monitoring of patients, and design of a hardware device to automate pathology-machine integration.",
+   "challenge": "Capture patient vital signs and laboratory-instrument results automatically instead of by manual transcription.",
+   "solution": [
+    "Conducted a proof of concept for continuous, IoT-based patient health monitoring.",
+    "Designed a hardware device to automate integration of pathology machines with information systems."
+   ],
+   "capabilities": [
+    "Medical IoT",
+    "Device integration",
+    "Laboratory automation",
+    "Connected health"
+   ],
+   "related": [
+    {
+     "label": "Research themes: connected diagnostic systems",
+     "href": "/research#themes"
+    }
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 150
+ },
+ {
+  "type": "project",
+  "slug": "government-enterprise-systems",
+  "title": "Government Enterprise and Management Systems",
+  "data": {
+   "slug": "government-enterprise-systems",
+   "title": "Government Enterprise and Management Systems",
+   "pillar": "platforms",
+   "status": "historical",
+   "period": "2004 – 2014",
+   "context": "Delivered by Agentic Research Labs for World Bank-financed and provincial-government programmes.",
+   "summary": "Financial, human-resource, logistics and monitoring-and-evaluation systems for public-sector and development programmes.",
+   "challenge": "Provide dependable management systems for public bodies and development projects at scale.",
+   "solution": [
+    "Financial Management System for a World Bank project, now used by 100+ cities in Pakistan.",
+    "Human Resource Management System later adopted across government, oil, agri-tech and retail sectors, locally and internationally.",
+    "Monitoring and Evaluation systems for a provincial-government project.",
+    "Feasibility studies for government HR, financial and logistics management systems."
+   ],
+   "capabilities": [
+    "Financial management",
+    "HRMS",
+    "Logistics management",
+    "Monitoring & evaluation"
+   ],
+   "reported": [
+    {
+     "label": "Cities using the FMS",
+     "value": "100+"
+    }
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 160
+ },
+ {
+  "type": "leader",
+  "slug": "abid-ghaffar",
+  "title": "Mr. Abid Ghaffar",
+  "data": {
+   "slug": "abid-ghaffar",
+   "initials": "AG",
+   "name": "Mr. Abid Ghaffar",
+   "role": "Chief Executive Officer",
+   "headline": "Technology leader and principal software architect",
+   "bio": [
+    "Mr. Abid Ghaffar is a technology leader and principal software architect with more than two decades of experience across public health, government, defence-related environments, enterprise systems and international development assignments.",
+    "His work spans healthcare information systems, enterprise architecture, high-concurrency software, data engineering, geospatial technologies and AI/LLM-based workflows — including local language models, retrieval-augmented generation and agentic workflows for privacy-conscious, on-premises environments."
+   ],
+   "highlights": [
+    {
+     "value": "20+",
+     "label": "years of technical leadership"
+    },
+    {
+     "value": "2,000+",
+     "label": "sites — provincial HMIS (reported)"
+    },
+    {
+     "value": "25,000+",
+     "label": "users — provincial HMIS (reported)"
+    }
+   ],
+   "focus": [
+    "Healthcare information systems",
+    "Enterprise architecture",
+    "Local AI & agentic workflows",
+    "High-concurrency engineering",
+    "GIS & data engineering"
+   ],
+   "credentials": [
+    "MicroMasters in Data, Economics and Development Policy — Massachusetts Institute of Technology",
+    "MS (Computer Science), Data Mining / Business Intelligence — University of Engineering and Technology, Lahore",
+    "Certified Professional in Healthcare Information and Management Systems (CPHIMS) — HIMSS",
+    "ITIL certified; machine-learning, big-data and cloud certifications"
+   ],
+   "work": [
+    {
+     "label": "Provincial HMIS",
+     "href": "/projects/provincial-hmis"
+    },
+    {
+     "label": "EMR and CCT Integration",
+     "href": "/projects/emr-cct-integration"
+    },
+    {
+     "label": "Intelligent File Management",
+     "href": "/projects/intelligent-file-management"
+    }
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 0
+ },
+ {
+  "type": "leader",
+  "slug": "muhammad-arfan",
+  "title": "Mr. Muhammad Arfan",
+  "data": {
+   "slug": "muhammad-arfan",
+   "initials": "MA",
+   "name": "Mr. Muhammad Arfan",
+   "role": "Director, Operations & Research",
+   "headline": "AI architect, enterprise-systems engineer and researcher",
+   "bio": [
+    "Mr. Muhammad Arfan leads operations and research at Agentic Research Labs. A software-engineering graduate with 17 years of experience, he combines enterprise-scale IT operations — application infrastructure, cybersecurity and service continuity for thousands of users — with hands-on AI engineering.",
+    "He designs AI-enabled applications and enterprise integrations: LLM integration, retrieval-augmented generation, agent orchestration with human-in-the-loop controls, and automated evaluation and verification. He applies software-engineering discipline — input and output validation, regression testing, access control and documentation — so that AI systems are maintainable, secure and trustworthy in production.",
+    "As Director, Operations & Research he connects applied research and technical design with operational planning, delivery coordination and institutional requirements. His research at Agentic Research Labs addresses responsible AI governance and measurable ethical competence, and the evaluation of AI-enabled health information systems."
+   ],
+   "highlights": [
+    {
+     "value": "17",
+     "label": "years across enterprise IT and AI"
+    },
+    {
+     "value": "3,000+",
+     "label": "users supported by services he administered"
+    },
+    {
+     "value": "250+",
+     "label": "physical servers consolidated through virtualisation"
+    },
+    {
+     "value": "25%",
+     "label": "reported hardware-cost reduction"
+    }
+   ],
+   "focus": [
+    "Operations & delivery coordination",
+    "AI engineering & research",
+    "LLM, RAG & agent orchestration",
+    "Secure infrastructure",
+    "Systems integration",
+    "Responsible AI governance"
+   ],
+   "credentials": [
+    "Bachelor of Software Engineering — GC University, Faisalabad (2005–2009)",
+    "Google Project Management certificate",
+    "Microsoft Azure Fundamentals (AZ-900); 38 Microsoft Learn certified badges",
+    "Anthropic AI Fluency: Framework Foundations; Claude Code 101; Claude Code in Action"
+   ],
+   "work": [
+    {
+     "label": "OneVerse AIOS",
+     "href": "/projects/oneverse-aios"
+    },
+    {
+     "label": "AI Document Intelligence",
+     "href": "/projects/ai-document-intelligence"
+    },
+    {
+     "label": "AI eMail, HR & Quotation applications",
+     "href": "/projects/ai-email-hr-quotation-applications"
+    },
+    {
+     "label": "AI Evaluation & Verification Platform",
+     "href": "/projects/ai-evaluation-verification-platform"
+    },
+    {
+     "label": "Data-centre Virtualisation",
+     "href": "/projects/data-centre-virtualisation"
+    },
+    {
+     "label": "Research: RAI-ECTF — measurable ethical competence",
+     "href": "/research/rai-ectf"
+    },
+    {
+     "label": "Research: AI-enabled HMIS",
+     "href": "/research/ai-enabled-hmis"
+    }
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 10
+ },
+ {
+  "type": "research",
+  "slug": "rai-ectf",
+  "title": "From AI Ethics Awareness to Measurable Ethical Competence",
+  "data": {
+   "slug": "rai-ectf",
+   "title": "From AI Ethics Awareness to Measurable Ethical Competence",
+   "kind": "Conceptual framework · manuscript",
+   "status": "Manuscript — not yet peer-reviewed or published",
+   "authors": "Muhammad Arfan",
+   "affiliation": "Agentic Research Labs (Pvt) Ltd, Lahore, Pakistan",
+   "theme": "Responsible AI, evaluation and human oversight",
+   "summary": "A conceptual framework — the Responsible AI Ethical Competence and Training Framework (RAI-ECTF) — for turning AI-ethics awareness into measurable, governance-connected competence for generative and agentic AI.",
+   "keywords": [
+    "AI ethics",
+    "responsible AI",
+    "ethical competence",
+    "generative AI",
+    "agentic AI",
+    "AI governance",
+    "competency assessment"
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 0
+ },
+ {
+  "type": "research",
+  "slug": "ai-enabled-hmis",
+  "title": "AI-Enabled Enterprise-Scale Digital Health Infrastructure",
+  "data": {
+   "slug": "ai-enabled-hmis",
+   "title": "AI-Enabled Enterprise-Scale Digital Health Infrastructure",
+   "kind": "Implementation case study and evaluation framework · manuscript",
+   "status": "Manuscript — source-grounded; not independently audited",
+   "authors": "Abid Ghaffar and Muhammad Arfan",
+   "affiliation": "Agentic Research Labs (Pvt) Ltd, Lahore, Pakistan",
+   "theme": "AI-enabled healthcare information systems",
+   "summary": "A descriptive case study of a provincial AI-enabled HMIS and a national-to-global evaluation framework that separates reported implementation scale from verified effectiveness.",
+   "keywords": [
+    "digital health",
+    "HMIS",
+    "EMR",
+    "interoperability",
+    "clinical decision support",
+    "ICD-11",
+    "implementation science"
+   ]
+  },
+  "isPublished": true,
+  "sortOrder": 10
+ }
+]

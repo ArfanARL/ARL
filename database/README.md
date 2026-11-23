@@ -1,5 +1,12 @@
 # Database exports
 
+Two database targets are documented here:
+
+- **Production (https://arls.dev):** MySQL 8 behind the PHP API in `backend/php-api`. Reference schema: `mysql-schema.sql`. Initial content: `backend/php-api/seed/entries.json` (imported automatically on first request). The first administrator is created once at `/api/setup` with a time-limited code; credentials live only in `~/arls-config/config.php` on the server, never in this repository.
+- **Local development:** PostgreSQL 17 with the .NET Core API, described below.
+
+## PostgreSQL (local development)
+
 PostgreSQL 17, exported from the local development database.
 
 | File | Contents |
