@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/arls.dev/
+    - /bin/mkdir -p $DEPLOYPATH
+    - /bin/cp -R index.html index.txt 404.html robots.txt sitemap.xml icon.svg .htaccess _next about brand contact leadership projects research solutions $DEPLOYPATH

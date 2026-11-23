@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 330 64" role="img" aria-label="Agentic Research Labs">
+<svg x="0" y="0" width="64" height="64" viewBox="0 0 64 64"><rect width="64" height="64" rx="14" fill="#10283c"/>
+<ellipse cx="32" cy="32" rx="23" ry="9" transform="rotate(-30 32 32)" fill="none" stroke="#72cbb7" stroke-width="2.2"/>
+<ellipse cx="32" cy="32" rx="23" ry="9" transform="rotate(30 32 32)" fill="none" stroke="#3f8f95" stroke-width="2.2"/>
+<circle cx="32" cy="32" r="6.5" fill="#72cbb7"/>
+<circle cx="51.9" cy="20.5" r="3.2" fill="#ffffff"/>
+<circle cx="12.1" cy="20.5" r="2.2" fill="#8bd5c6"/></svg>
+<text x="80" y="29" font-family="Manrope, 'Segoe UI', Arial, sans-serif" font-weight="800" font-size="23" letter-spacing="3" fill="#10283c">AGENTIC</text>
+<text x="80" y="49" font-family="Manrope, 'Segoe UI', Arial, sans-serif" font-weight="600" font-size="15" letter-spacing="5.2" fill="#1c6076">RESEARCH LABS</text>
+<text x="80" y="62" font-family="'Segoe UI', Arial, sans-serif" font-size="7.5" letter-spacing="1.6" fill="#5f7480">INTELLIGENT SYSTEMS. PRACTICAL IMPACT.</text>
+</svg>
